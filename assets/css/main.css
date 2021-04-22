@@ -640,7 +640,7 @@ input, select, textarea {
 	.fab.fa-spotify,
 	.fas.fa-gamepad,
 	.fas.fa-coffee {
-		font-size: 10em;
+		font-size: 9em;
 	}
 
 /* Image */
@@ -1122,6 +1122,7 @@ input, select, textarea {
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
 		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -1674,6 +1675,7 @@ input, select, textarea {
 
 #projects.projects {
 	padding: 4.5rem 1rem 1.5rem 1rem;
+
 }
 
 .major.projects {
@@ -1746,4 +1748,25 @@ input, select, textarea {
 	.project-description {
 		margin-left: 0;
 	}
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: 2px;
+  scrollbar-color:black rgb(133, 133, 133);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+  background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(190, 190, 190);
+  border-radius: 20px;
+  border: none;
 }
