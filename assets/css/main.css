@@ -643,6 +643,10 @@ input, select, textarea {
 		font-size: 9em;
 	}
 
+	.fa-paper-plane {
+		margin-right: 10px;
+	}
+
 /* Image */
 
 	.image {
@@ -1553,7 +1557,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
 			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+			padding: 4.5rem 2.5rem 2.5rem 2.5rem ;
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
@@ -1675,7 +1679,6 @@ input, select, textarea {
 
 #projects.projects {
 	padding: 4.5rem 1rem 1.5rem 1rem;
-
 }
 
 .major.projects {
@@ -1738,16 +1741,35 @@ input, select, textarea {
 @media screen and (max-width: 480px) {
 	.project-container {
 		flex-direction: column;
+		margin-bottom: 10px;
+		padding-bottom: 20px;
+		border-bottom: solid 1px #ffffff;
 	}
 
 	.project-details-container {
 		text-align: center;
 	}
 
-	.project-name,
-	.project-description {
+	.project-name.left,
+	.project-description.left,
+	.project-name.right,
+	.project-description.right {
 		margin-left: 0;
+		margin-right: 0;
 	}
+}
+
+.skills-icon-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 8px;
+}
+
+.skills-icon-container img {
+	margin: 10px;
 }
 
 /* Works on Firefox */
