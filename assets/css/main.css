@@ -1617,7 +1617,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main article {
-				padding: 3.5rem 2rem 0.5rem 2rem ;
+				padding: 3.5rem 2rem 2.5rem 2rem ;
 			}
 
 				#main article .close:before {
@@ -1633,7 +1633,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#main article {
-				padding: 3rem 1.5rem 0.5rem 1.5rem ;
+				padding: 3rem 1.5rem 2.5rem 1.5rem ;
 			}
 
 		}
@@ -1753,9 +1753,19 @@ input, select, textarea {
 	.project-name.left,
 	.project-description.left,
 	.project-name.right,
-	.project-description.right {
+	.project-description.right,
+	.project-built-with.left,
+	.project-built-with.right  {
 		margin-left: 0;
 		margin-right: 0;
+	}
+
+	.project-name {
+		line-height: 40px;
+	}
+
+	.project-description {
+		padding-top: 10px;
 	}
 }
 
