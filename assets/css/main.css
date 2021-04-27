@@ -1675,6 +1675,20 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+/* About */
+.bio-container {
+	margin-bottom: 40px;
+}
+
+.education-header.major {
+	margin: 15px 0;
+}
+
+.education {
+	margin: 0;
+}
+
+
 /* Projects  */
 
 #projects.projects {
