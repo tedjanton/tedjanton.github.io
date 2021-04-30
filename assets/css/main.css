@@ -1795,11 +1795,13 @@ input, select, textarea {
 .skills-icon-container img {
 	margin: 10px;
 	width: 120px;
+	height: 120px;
 }
 
 @media screen and (max-width: 480px) {
 	.skills-icon-container img {
 		width: 80px;
+		height: 80px;
 	}
 }
 
