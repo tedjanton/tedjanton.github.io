@@ -1774,6 +1774,11 @@ input, select, textarea {
 		margin-right: 0;
 	}
 
+	.project-built-with.left,
+	.project-built-with.right {
+		font-size: 10px;
+	}
+
 	.project-name {
 		line-height: 40px;
 	}
