@@ -647,6 +647,12 @@ input, select, textarea {
 		margin-right: 10px;
 	}
 
+	button.resume {
+		font-size: 0.7rem;
+		font-weight: 300;
+		letter-spacing: 0.2rem;
+	}
+
 /* Image */
 
 	.image {
@@ -913,6 +919,8 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		padding-top: 32px;
+		border-top: thin solid white;
 	}
 
 		ul.icons li {
@@ -1688,6 +1696,12 @@ input, select, textarea {
 	margin: 0;
 }
 
+@media screen and (max-width: 480px) {
+	.education {
+		font-size: 11px;
+	}
+}
+
 
 /* Projects  */
 
@@ -1829,4 +1843,25 @@ input, select, textarea {
   background-color: rgb(190, 190, 190);
   border-radius: 20px;
   border: none;
+}
+
+.home-image img {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 50%;
+}
+
+.major.about {
+	margin: 0 0 15px 0;
+}
+
+.button.contact {
+	margin-right: 16px;
+}
+
+@media screen and (max-width: 480px) {
+	.button.contact {
+		width: 100%;
+		margin-bottom: 15px;
+	}
 }
